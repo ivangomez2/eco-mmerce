@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Contacto</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./preguntas-frecuentes.html">FAQS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./login.html">Registro</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+ <main>
+   <h1 class="display-1 main__h1">Contacto</h1>
+   <section>
+     <p class="main__textmap">Nuestras oficinas se encuentran dentro del Shopping de mendoza.</p>
+     <div class="main__mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7967.409310950476!2d-68.79726124130532!3d-32.90126248813916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1640785324444!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"> </iframe>
+       <fieldset><legend>Formulario de contacto</legend>
+        <form class="contacto" action="">
+           
+          <label for="Nombre">Nombre</label>
+          <input placeholder="Ingresa tu nombre..." class="input-contacto" type="text">
+          <label for="email">Email</label>
+          <input class="input-contacto" placeholder="Ingresa tu email @..." type="email">
+          <label  for="nacimiento">Fecha de nacimiento</label>
+          <input class="input-contacto" type="date">
+          
+          <label for="sexo">Sexo</label>
+          <div class="sexo">
+          <input type="radio" name="sexo" id="sexo">Hombre
+          <input type="radio" name="sexo" id="sexo">Mujer
+        </div>
+          <label for="textarea">Deja tu mensaje</label>
+          <textarea placeholder="Envianos tu consulta" class="input-contacto" name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        </form>
+        <button type="button" class="btn btn-secondary form__button">Enviar</button>
+      </div>
+    </fieldset>  
+     </section>
+     
+ </main>
+ <div class="container footer">
+  <footer class="py-3 my-4 foot_class">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="./contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+      <li class="nav-item"><a href="./tienda.html" class="nav-link px-2 text-muted">Planes</a></li>
+      <li class="nav-item"><a href="./preguntas-frecuentes.html" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="./preguntas-frecuentes.html" class="nav-link px-2 text-muted">Sobre nosotros</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2021 Eco-mmerce</p>
+  </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
