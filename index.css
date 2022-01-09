@@ -2,6 +2,41 @@ body{
     background-color: white
 }
 
+@keyframes Texto-color {
+    0% {color:black;}
+    30% {color: grey;}
+    60% {color: gray;}
+    100% {color: rgb(20, 10, 10);}
+}
+
+@keyframes bronce{
+    0%{background-color:rgb(230, 162, 3)}
+    50%{background-color: rgb(200, 142, 7);}
+    100%{background-color: rgb(180, 149, 78);}
+}
+
+
+@keyframes plata{
+    0%{background-color:rgb(238, 245, 246)}
+    50%{background-color: rgb(192, 191, 189);}
+    100%{background-color: rgb(158, 156, 152);}
+}
+
+
+@keyframes oro{
+    0%{background-color:rgb(221, 217, 5)}
+    50%{background-color: rgb(241, 226, 11);}
+    100%{background-color: rgb(228, 216, 49);}
+}
+
+
+@keyframes background-color {
+    0% {background-color: whitesmoke;}
+    40% {background-color: rgb(112, 106, 106);}
+    80% {background-color: rgb(163, 159, 159);}
+    100%{background-color: white;}
+}
+
 
 .main{
     text-align: center;
@@ -9,9 +44,10 @@ body{
 }
 
 .main__title{
-    border: solid black;
+    
     margin-top: 5px;
     border-radius: 10px;
+
 }
 
 .card-cont{
@@ -79,6 +115,9 @@ body{
     text-align: center;
     margin-top: 10px;
     color: rgba(3, 3, 3, 0.924);
+    animation-name: Texto-color;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
  
 
 }
@@ -273,8 +312,10 @@ body{
 
 .texto-tienda{
     text-align: center;
-
+    
 }
+
+
 
 .texto-tienda p{
     color: gray;
@@ -369,5 +410,127 @@ body{
     .section__card{
         display: flex !important;
         flex-direction: column;
+       
+        align-items: center;
     }
+}
+
+
+.counter__section{
+    margin-top:40px;
+  flex-direction: column;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border: solid black 1px;
+    background-color: rgb(6, 7, 7);
+  color:white;  
+  animation-name: background-color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+}
+
+.section__duda{
+    margin-top: 100px;
+   display: flex;
+   
+   justify-content: center;
+   border: solid 1px grey;
+   border-radius: 20px;
+}
+
+.div__centrarr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__intro{
+    display: flex;
+    align-items: center !;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px
+}
+
+.div__textcenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-main{
+ display: none;   
+}
+
+
+
+.boton__mock a{
+text-decoration: none;
+color: white;
+}
+
+
+
+
+
+.buy__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.btnn{
+    margin-left: 30%;
+    margin-top: 5px;
+}
+
+@media (max-width:900px){
+.img__sec{
+    display: none;
+}
+}
+
+.tienda-h1{
+    animation-name: Texto-color;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+.bronce-head{
+    animation-name: bronce;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+.bronce-head button{
+    animation-name: bronce;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+
+.plata-head{
+    animation-name: plata;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+.plata-head button{
+    animation-name: plata;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+.oro-head{
+    animation-name: oro;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+.oro-head button{
+    animation-name: oro;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
 }
