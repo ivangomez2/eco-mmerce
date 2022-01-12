@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.main__log {
+  text-align: center; }
+  .main__log .inicio-sersion {
+    border: solid 1px black;
+    background-color: rgba(0, 0, 0, 0.924);
+    color: white;
+    border-radius: 30px;
+    margin-top: 15px; }
+    .main__log .inicio-sersion .form__inicio {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main__log .inicio-sersion .form__inicio .input-contacto {
+        width: 350px; }
+        .main__log .inicio-sersion .form__inicio .input-contacto .div__remember {
+          display: flex;
+          justify-content: center; }

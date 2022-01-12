@@ -88,9 +88,8 @@ body{
     color: whitesmoke;
 }
 
-.main__log{
-    text-align: center;
-}
+
+
 
 .center-divs input{
     width: 50%;
@@ -369,9 +368,6 @@ body{
     margin-left: 45px;
 }
 
-.main__h1{
-    text-align: center;
-}
 
 .form__button{
     margin-top: 10px;
@@ -382,29 +378,12 @@ body{
     text-align: center !important;
 }
 
-.div__remember{
-    display: flex;
-    
-    
-    justify-content: center;
-}
-
-.form__inicio{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-
-}
 
 
-.inicio-sersion{
-    border: solid 1px;
-    background-color: rgba(0, 0, 0, 0.924);
-    color: white;
-    border-radius: 30px;
 
-    margin-top: 15px;
-}
+
+
+
 
 @media (max-width:551px){
     .section__card{
