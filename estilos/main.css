@@ -1,22 +1,192 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+.caja1 {
+  width: 150px;
+  height: 150px; }
 
-.main__log {
-  text-align: center; }
-  .main__log .inicio-sersion {
-    border: solid 1px black;
-    background-color: rgba(0, 0, 0, 0.924);
+.main__registro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  flex-direction: column; }
+  .main__registro .main__cont {
+    border: solid 1px rgba(128, 128, 128, 0.616);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 4px; }
+  .main__registro img {
+    width: 200px; }
+  .main__registro form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; }
+  .main__registro input {
+    width: 250px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    border-color: rgba(65, 65, 66, 0.123);
+    padding: 15px; }
+  .main__registro button {
+    background-color: #3dd8ec;
     color: white;
-    border-radius: 30px;
-    margin-top: 15px; }
-    .main__log .inicio-sersion .form__inicio {
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-      .main__log .inicio-sersion .form__inicio .input-contacto {
-        width: 350px; }
-        .main__log .inicio-sersion .form__inicio .input-contacto .div__remember {
-          display: flex;
-          justify-content: center; }
+    border-radius: 5px;
+    border: 1px rgba(128, 128, 128, 0);
+    padding: 6px; }
+  .main__registro .separador__registro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px; }
+  .main__registro .facebook__registro {
+    margin-bottom: 10px; }
+  .main__registro .section__registro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    border-radius: 4px;
+    border: solid 1px rgba(128, 128, 128, 0.616);
+    padding: 7px;
+    margin-top: 10px; }
+  .main__registro .botonApp__botones {
+    display: flex;
+    align-items: center; }
+  .main__registro .play {
+    width: 200px; }
+  .main__registro .apple {
+    width: 200px;
+    height: 50px; }
+
+@media (max-width: 419px) {
+  p {
+    font-size: 10px; }
+  .botonApp__botones {
+    flex-direction: column; }
+  .apple {
+    width: 178px !important; } }
+
+.caja1 {
+  width: 150px;
+  height: 150px; }
+
+.caja1 {
+  width: 150px;
+  height: 150px; }
+
+/* texto h1  y p */
+.section__mainTienda {
+  text-align: center; }
+  .section__mainTienda p {
+    color: #696868; }
+
+/* barra divisoria*/
+.linea {
+  border-top: 1px solid black;
+  height: 2px;
+  max-width: 80%;
+  padding: 0;
+  margin: 20px auto 0 auto; }
+
+/* estilos de las cards y botones */
+.section__buy {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .section__buy .div__tienda {
+    display: flex;
+    justify-content: space-between; }
+    .section__buy .div__tienda .card-body {
+      background-color: whitesmoke; }
+    .section__buy .div__tienda .btn__esqueleto {
+      width: 80px;
+      height: 25px;
+      border-radius: 7px;
+      font-size: 13px;
+      color: whitesmoke; }
+
+/* Animaciones de bordes y botones de las cajas de la derecha */
+.img__sec .bronce-head {
+  animation-name: bronce;
+  animation-iteration-count: infinite;
+  animation-duration: 5s; }
+
+.img__sec .bronce-head button {
+  animation-name: bronce;
+  animation-iteration-count: infinite;
+  animation-duration: 5s; }
+
+.img__sec .plata-head {
+  animation-name: plata;
+  animation-iteration-count: infinite;
+  animation-duration: 5s; }
+
+.img__sec .plata-head button {
+  animation-name: plata;
+  animation-iteration-count: infinite;
+  animation-duration: 5s; }
+
+.img__sec .oro-head {
+  animation-name: oro;
+  animation-iteration-count: infinite;
+  animation-duration: 5s; }
+
+.img__sec .oro-head button {
+  animation-name: oro;
+  animation-iteration-count: infinite;
+  animation-duration: 5s; }
+
+.img__sec .btnn {
+  margin-left: 30%;
+  margin-top: 5px; }
+
+.texto-final {
+  text-align: center;
+  margin-top: 40px; }
+
+/*Vista mobile*/
+@media (max-width: 880px) {
+  .section__buy {
+    display: flex;
+    flex-direction: column; } }
+
+.main__h1 {
+  text-align: center !important; }
+
+/* imagenes arriba del footer*/
+.section__boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px; }
+  .section__boxes .section__box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .section__boxes .section__box1 a {
+      text-decoration: none;
+      color: #0e0d1f; }
+    .section__boxes .section__box1 .box1, .section__boxes .section__box1 .box3 {
+      width: 240px; }
+    .section__boxes .section__box1 .box2 {
+      width: 150px; }
+
+@media (max-width: 618px) {
+  .section__boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; } }
+
+.btn--bronce {
+  background-color: #ac8813; }
+
+.btn--plata {
+  background-color: #9b9494; }
+
+.btn--oro {
+  background-color: gold; }

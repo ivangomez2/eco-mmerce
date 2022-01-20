@@ -309,16 +309,7 @@ body{
     justify-content: space-evenly;
 }
 
-.texto-tienda{
-    text-align: center;
-    
-}
 
-
-
-.texto-tienda p{
-    color: gray;
-}
 
 .linea{
         border-top: 1px solid black;
@@ -329,10 +320,7 @@ body{
       
 }
 
-.texto-final{
-    text-align: center;
-    margin-top: 40px;
-}
+
 
 .contacto{
  display: grid;
@@ -374,9 +362,7 @@ body{
     width: 350px;
 }
 
-.main__h1{
-    text-align: center !important;
-}
+
 
 
 

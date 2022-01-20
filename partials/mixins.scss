@@ -1,0 +1,15 @@
+@mixin botonAzul{
+   background-color: rgb(61, 216, 236);
+    color: white;
+    border-radius: 5px;
+    border: 1px rgba(128, 128, 128, 0);
+    padding: 6px;
+}
+
+
+@mixin Centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

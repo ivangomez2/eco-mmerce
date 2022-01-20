@@ -1,0 +1,87 @@
+@import "../partials/var.scss";
+@import "../partials/mixins.scss";
+
+.main__registro {
+ @include Centrar;
+ margin-top: 20px;
+ flex-direction: column;
+
+.main__cont{
+    border: $bordeCajas;
+    @include Centrar;
+    flex-direction: column;
+  
+    width: 400px;
+    border-radius: 4px;
+}
+
+  img {
+    width: 200px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input {
+    width: 250px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    border-color: rgba(65, 65, 66, 0.123);
+    padding: 15px;
+  }
+
+  button {
+    @include botonAzul;
+  }
+
+  .separador__registro {
+    @include Centrar;
+    margin-top: 10px;
+  }
+
+  .facebook__registro{
+      margin-bottom: 10px;
+  }
+
+  .section__registro{
+      @include Centrar;
+      width: 400px;
+      border-radius: 4px;
+      border: $bordeCajas;
+      padding: 7px;
+      margin-top: 10px;
+  }
+
+  .botonApp__botones{
+      display: flex;
+     align-items: center;
+  }
+
+  .play{
+      width: 200px;
+  }
+
+  .apple{
+      width: 200px;
+      height: 50px;
+  }
+}
+
+
+@media (max-width:419px){
+    p{
+        font-size: 10px;
+    }
+.botonApp__botones{
+    flex-direction: column;
+
+}
+
+.apple{
+    width: 178px !important;
+}
+}

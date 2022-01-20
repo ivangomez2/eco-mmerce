@@ -1,0 +1,47 @@
+.main__h1{
+    text-align: center !important;
+}
+
+/* imagenes arriba del footer*/
+
+.section__boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+.section__box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    a{
+        text-decoration: none;
+        color: rgb(14, 13, 31);
+    }
+
+
+.box1{
+width: 240px;
+
+}
+
+.box2{
+    width: 150px;
+}
+
+.box3{
+    @extend .box1
+}
+
+}
+}
+
+
+@media (max-width:618px){
+    .section__boxes{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+   }
+}

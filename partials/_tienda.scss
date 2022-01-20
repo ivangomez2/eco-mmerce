@@ -1,0 +1,120 @@
+@import "./var.scss";
+
+/* texto h1  y p */
+.section__mainTienda{
+    text-align: center;
+
+    p{
+        color:map-get($map: $estilos, $key:colorGrisTexto )
+    }
+    
+}
+
+
+
+/* barra divisoria*/
+.linea{
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 80%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  
+}
+
+
+
+/* estilos de las cards y botones */
+
+.section__buy{
+    display: flex;
+    align-items: map-get($map: $estilos, $key:centro );
+    justify-content: space-around;
+    
+    .div__tienda{
+        display: flex;
+        justify-content: space-between;
+    
+        .card-body{
+            background-color: whitesmoke;
+            
+          
+        }
+    
+        .btn__esqueleto{
+            width: 80px;
+            height: 25px;
+            border-radius: 7px;
+            font-size: 13px;
+            color: whitesmoke;
+            
+        }
+        
+    }
+}
+
+
+/* Animaciones de bordes y botones de las cajas de la derecha */
+.img__sec{
+
+    .bronce-head{
+        animation-name: bronce;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+    }
+    
+    .bronce-head button{
+        animation-name: bronce;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+    }
+    
+    
+    .plata-head{
+        animation-name: plata;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+    }
+    
+    .plata-head button{
+        animation-name: plata;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+    }
+    
+    .oro-head{
+        animation-name: oro;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+    }
+    
+    .oro-head button{
+        animation-name: oro;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+    }
+
+    .btnn{
+        margin-left: 30%;
+        margin-top: 5px;
+    }
+
+    
+}
+
+
+
+.texto-final{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*Vista mobile*/
+
+@media (max-width:880px){
+    .section__buy{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

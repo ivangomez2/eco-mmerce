@@ -1,0 +1,21 @@
+$bordeCajas: solid 1px rgba(128, 128, 128, 0.616);
+
+$buttons: (
+    bronce:rgb(172, 136, 19),
+    plata:rgb(155, 148, 148),
+    oro:gold
+);
+
+
+$estilos:(
+    bordesRedondeados: 6px,
+    centro:center,
+    colorGrisTexto:rgb(105, 104, 104)
+);
+
+
+.caja1{
+    width: 150px;
+    height: 150px;
+    
+}

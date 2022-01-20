@@ -1,4 +1,11 @@
-@import "../partials/reset";
-@import "../partials/smain";
+@import "../partials/login";
+@import "../partials/var.scss";
+@import "../partials/tienda";
+@import "../partials/preguntas-frecuentes";
 
-$centrar-Palabras:center;
+@each $button, $color in $buttons{
+    .btn--#{$button}{
+        background-color: $color;
+    }
+}
+
