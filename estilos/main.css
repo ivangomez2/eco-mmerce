@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 80px;
   flex-direction: column; }
   .main__registro .main__cont {
     border: solid 1px rgba(128, 128, 128, 0.616);
@@ -79,6 +79,28 @@
 .caja1 {
   width: 150px;
   height: 150px; }
+
+@media (max-width: 716px) {
+  .img__mobile {
+    width: 100%;
+    display: inline-block !important; }
+  .img__desktop {
+    display: none; } }
+
+/*Imagen inicial para ordenador*/
+.img__desktop {
+  width: 100%;
+  height: 600px; }
+
+/*Imagen inicial para Mobile*/
+.img__mobile {
+  display: none; }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3; }
 
 /* texto h1  y p */
 .section__mainTienda {
@@ -181,6 +203,130 @@
     display: flex;
     flex-direction: column;
     gap: 30px; } }
+
+@media (max-width: 910px) {
+  .main__mapa {
+    display: flex;
+    flex-direction: column; }
+  .main__textmap {
+    text-align: center; } }
+
+/*titulo y parrafo*/
+.main__mapa {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .main__mapa .main__textmap {
+    margin-left: 45px; }
+
+/*Formulario de contacto*/
+.contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  justify-items: center; }
+  .contacto .input-contacto {
+    width: 350px; }
+  .contacto .form__button {
+    margin-top: 10px;
+    width: 350px; }
+
+* {
+  font-family: "roboto"; }
+
+@media (max-width: 651px) {
+  .section__intro {
+    display: flex;
+    flex-direction: column; }
+    .section__intro .card__box {
+      border: solid 1px gray;
+      margin-top: 10px;
+      border-radius: 5px; }
+  .section__card {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center; }
+  .img-back {
+    display: none; }
+  .img-front {
+    width: 100%;
+    display: inline-block !important; } }
+
+@media (max-width: 450px) {
+  .d-flex {
+    display: flex;
+    flex-direction: column; } }
+
+.img-front {
+  display: none; }
+
+.img-back {
+  width: 100%;
+  height: 600px; }
+
+.main {
+  text-align: center; }
+  .main .main__title {
+    margin-top: 5px;
+    border-radius: 10px; }
+    .main .main__title .section__title {
+      text-align: center;
+      margin-top: 10px;
+      color: rgba(3, 3, 3, 0.924);
+      animation-name: Texto-color;
+      animation-iteration-count: infinite;
+      animation-duration: 4s; }
+      .main .main__title .section__title .section__p {
+        color: rgba(0, 0, 0, 0.561); }
+
+.section__intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px; }
+  .section__intro .div__textcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+.section__card {
+  display: flex;
+  justify-content: space-around; }
+  .section__card .card {
+    margin-top: 70px; }
+    .section__card .card .card-body {
+      background-color: whitesmoke; }
+      .section__card .card .card-body .button__cards {
+        border: solid 1px blue;
+        background-color: #10adeb; }
+
+.counter__section {
+  margin-top: 40px;
+  flex-direction: column;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: solid black 1px;
+  background-color: #060707;
+  color: white;
+  animation-name: background-color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
+
+.section__duda {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  border: solid 1px grey;
+  border-radius: 20px; }
+  .section__duda .div__centrarr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+.display-1 {
+  margin-top: 70px; }
 
 .btn--bronce {
   background-color: #ac8813; }

@@ -1,5 +1,38 @@
 @import "./var.scss";
 
+
+@media (max-width:716px){
+    .img__mobile{
+        width: 100%;
+        display: inline-block !important;
+    }
+
+    .img__desktop{
+        display: none;
+    }
+}
+
+
+/*Imagen inicial para ordenador*/
+.img__desktop{
+    width: 100%;
+    height: 600px;
+}
+
+
+/*Imagen inicial para Mobile*/
+
+.img__mobile{
+    display: none;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
 /* texto h1  y p */
 .section__mainTienda{
     text-align: center;

@@ -2,6 +2,12 @@
 @import "../partials/var.scss";
 @import "../partials/tienda";
 @import "../partials/preguntas-frecuentes";
+@import "../partials/contacto";
+@import "../partials/index";
+
+.display-1{
+    margin-top:70px;
+}
 
 @each $button, $color in $buttons{
     .btn--#{$button}{
